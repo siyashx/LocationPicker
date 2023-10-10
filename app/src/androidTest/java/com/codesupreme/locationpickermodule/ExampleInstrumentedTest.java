@@ -1,4 +1,4 @@
-package com.shivtechs.locationpickermodule;
+package com.codesupreme.locationpickermodule;
 
 import android.content.Context;
 

@@ -1,4 +1,4 @@
-package com.shivtechs.maplocationpicker;
+package com.codesupreme.locationpickermodule;
 
 import org.junit.Test;
 

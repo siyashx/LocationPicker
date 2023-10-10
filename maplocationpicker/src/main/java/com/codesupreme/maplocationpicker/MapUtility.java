@@ -13,7 +13,7 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-package com.shivtechs.maplocationpicker;
+package com.codesupreme.maplocationpicker;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -26,6 +26,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.widget.Toast;
+
+import com.shivtechs.maplocationpicker.R;
 
 public class MapUtility {
     public static final String MAP_URL = "https://maps.googleapis.com";

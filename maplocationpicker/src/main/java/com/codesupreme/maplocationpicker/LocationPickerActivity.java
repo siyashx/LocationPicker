@@ -12,7 +12,7 @@
 //  LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-package com.shivtechs.maplocationpicker;
+package com.codesupreme.maplocationpicker;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -76,6 +76,7 @@ import com.google.android.libraries.places.api.model.Place;
 import com.google.android.libraries.places.widget.Autocomplete;
 import com.google.android.libraries.places.widget.AutocompleteActivity;
 import com.google.android.libraries.places.widget.model.AutocompleteActivityMode;
+import com.shivtechs.maplocationpicker.R;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -95,9 +96,7 @@ public class LocationPickerActivity extends AppCompatActivity implements OnMapRe
     private String userPostalCode = "";
     private String userCountry = "";
     private String userAddressline2 = "";
-    private String userAddressline1 = "";
     private Bundle addressBundle;
-    private List addressdetails;
     private double mLatitude;
     private double mLongitude;
     private String userCountryISOCode = null;
@@ -143,8 +142,6 @@ public class LocationPickerActivity extends AppCompatActivity implements OnMapRe
         ImageView googleMapTool = findViewById(R.id.google_maps_tool);
 
         imgSearch = findViewById(R.id.imgSearch);
-        addressline2 = findViewById(R.id.addressline2);
-        citydetail = findViewById(R.id.citydetails);
 
 
         // Initialize bundle
